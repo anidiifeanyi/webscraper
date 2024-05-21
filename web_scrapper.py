@@ -4,3 +4,6 @@ from dotenv import scraper
 
 # Specify the URL to scrap
 url = scraper
+
+# send a request
+r = requests.get(url)
